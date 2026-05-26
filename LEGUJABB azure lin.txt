@@ -1,0 +1,21 @@
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt install samba -y
+
+sudo mkdir mappa
+cd mappa
+sudo touch nevem.txt
+ls
+sudo nano nevem.txt
+
+ctrl O + ENTER + ctrl X
+
+cat nevem.txt
+
+------------------------
+Ellenőrzés:
+cat nevem.txt
+vissza: cd
+dpkg -l | grep samba (altgr+w (L))
+
+((cat /var/log/apt/history.log))?
